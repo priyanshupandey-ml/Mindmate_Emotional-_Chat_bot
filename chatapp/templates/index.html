@@ -1,0 +1,49 @@
+{% load static %}
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>MindMate — Chat</title>
+  <link rel="stylesheet" href="{% static 'css/style.css' %}">
+</head>
+<body>
+  <main class="app-root">
+    <!-- Top area with animated cute mascot -->
+    <header class="hero">
+      <div class="mascot" aria-hidden="true">
+        <div class="mascot-body">
+          <div class="eye eye-left"></div>
+          <div class="eye eye-right"></div>
+          <div class="mouth"></div>
+        </div>
+        <div class="mascot-shadow"></div>
+      </div>
+      <div class="hero-text">
+        <h1>Hello — I'm MindMate</h1>
+        <p class="sub">Share what's on your mind. I'm here to listen 💬</p>
+      </div>
+    </header>
+
+    <!-- Middle space: optional tips or mood summary -->
+    <section class="middle">
+      <div class="card tip">
+        <h3>Quick tip</h3>
+        <p>Try slow breathing for 1 minute — breathe in for 4s, hold 4s, out 6s.</p>
+      </div>
+    </section>
+
+    <!-- Chat area is visually anchored at bottom -->
+    <section class="chat-wrapper">
+      <div id="chatBox" class="chat-box" aria-live="polite"></div>
+
+      <form id="chatForm" class="chat-input-area" autocomplete="off">
+        <input id="messageInput" class="chat-input" type="text" placeholder="Write how you feel..." />
+        <button id="sendBtn" class="send-btn" type="submit">Send</button>
+      </form>
+    </section>
+  </main>
+
+  <script src="{% static 'js/script.js' %}"></script>
+</body>
+</html>
