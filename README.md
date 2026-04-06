@@ -126,5 +126,9 @@
     <b>Thank You </b>
   </p>
 
+<p> Output </p>
+<hr>
+<img width="1887" height="941" alt="image" src="https://github.com/user-attachments/assets/142429af-4e4b-4de6-9509-4291b10a6970" />
+
 </body>
 </html>
