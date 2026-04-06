@@ -13,9 +13,9 @@
 
   <hr>
 
-  <h2>📌 About the Project</h2>
+  <h2> About the Project</h2>
   <p>
-    Hello everyone! 👋 <br><br>
+    Hello everyone! <br><br>
     I am currently exploring the field of <b>Machine Learning</b> and AI models. During my learning journey,
     I came across the <b>Hugging Face Transformers</b> library in Python, which provides access to many
     powerful pre-trained models.
@@ -23,7 +23,7 @@
 
   <p>
     Nowadays, many people experience <b>mental stress and work pressure</b>, often because they hesitate to share
-    their feelings or may not have someone to talk to. 💭
+    their feelings or may not have someone to talk to. 
   </p>
 
   <p>
@@ -33,7 +33,7 @@
 
   <hr>
 
-  <h2>🚀 Project Idea</h2>
+  <h2> Project Idea</h2>
   <p>
     Initially, I planned to build my own Large Language Model (LLM) from scratch. However, creating such a model
     requires a massive amount of <b>data, computational resources, and time</b>.
@@ -46,15 +46,15 @@
 
   <hr>
 
-  <h2>🧠 Models Used</h2>
+  <h2> Models Used</h2>
 
-  <h3>1️⃣ Emotion Detection Model</h3>
+  <h3>1️ Emotion Detection Model</h3>
   <p>
     <b>Model:</b> j-hartmann/emotion-english-distilroberta-base <br>
     <b>Purpose:</b> Detects the emotion from user input text (e.g., happy, sad, angry, etc.)
   </p>
 
-  <h3>2️⃣ Conversational Model</h3>
+  <h3> Conversational Model</h3>
   <p>
     <b>Model:</b> meta-llama/Llama-3.1-8B-Instruct <br>
     <b>Purpose:</b> Generates human-like responses based on user input and detected emotion
@@ -62,10 +62,10 @@
 
   <hr>
 
-  <h2>⚙️ Workflow</h2>
+  <h2> Workflow</h2>
 
   <ol>
-    <li>User enters a message or query 💬</li>
+    <li>User enters a message or query </li>
     <li>The message is sent to <b>Model 1</b> for emotion detection</li>
     <li>Emotion is extracted (e.g., sad, happy, stressed)</li>
     <li>A function <code>generate_ai_reply(text, emotion)</code> is called</li>
@@ -77,7 +77,7 @@
 
   <hr>
 
-  <h2>🛠️ Key Functions</h2>
+  <h2> Key Functions</h2>
 
   <ul>
     <li><b>generate_ai_reply(text, emotion)</b> → Generates AI response</li>
@@ -87,18 +87,18 @@
 
   <hr>
 
-  <h2>✨ Features</h2>
+  <h2> Features</h2>
 
   <ul>
-    <li>Emotion-aware responses 🤍</li>
-    <li>Human-like conversation using LLM 🤖</li>
-    <li>Safe space for users to express feelings 💬</li>
-    <li>Scalable architecture for future improvements ⚡</li>
+    <li>Emotion-aware responses </li>
+    <li>Human-like conversation using LLM </li>
+    <li>Safe space for users to express feelings </li>
+    <li>Scalable architecture for future improvements </li>
   </ul>
 
   <hr>
 
-  <h2>🔮 Future Improvements</h2>
+  <h2>Future Improvements</h2>
 
   <ul>
     <li>Fine-tuning models for better personalization</li>
@@ -110,20 +110,20 @@
 
   <hr>
 
-  <h2>📢 Conclusion</h2>
+  <h2> Conclusion</h2>
   <p>
     This project is just the <b>beginning</b> of my journey into AI and conversational systems.
     I will continue improving and adding more features to make this chatbot more helpful and intelligent.
   </p>
 
   <p align="center">
-    ⭐ If you like this project, feel free to give it a star!
+     If you like this project, feel free to give it a star!
   </p>
 
   <hr>
 
   <p align="center">
-    <b>Thank You 🙌</b>
+    <b>Thank You </b>
   </p>
 
 </body>
